@@ -1,0 +1,50 @@
+.weather-card {
+    display: block;
+    padding: 30px;
+    width: 700px;
+    height: 210px;
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    color: black;
+}
+
+.weather-card .title {
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.weather-card .location {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.weather-card .item-card {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.weather-card .time {
+    font-weight: lighter;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.weather-card .temperature {
+    font-weight: 500;
+    font-size: 80px;
+    padding-bottom: 40px;
+}
+
+.weather-card .condition {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.weather-card .weather {
+    font-size: 20px;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,9 @@
+<div class="app">
+    <div class="weather-card" [formControl]="myControl">
+        <div class="title">7 Days Weather <span class="location"> - {{location}}</span></div>
+        <div class="time">as of {{ dateNow }} WIB</div>
+        <div *ngFor="let weather of filteredHourlyWeathers | async" name="weather">
+            {{weather.temp}}°C
+        </div>
+    </div>
+</div>
