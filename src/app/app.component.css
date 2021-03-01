@@ -1,0 +1,14 @@
+.weather-city-search {
+    position: absolute;
+    padding-top: 5px;
+    right: 40px;
+}
+.autocomplete-form {
+    min-width: 150px;
+    max-width: 400px;
+}
+
+.autocomplete-input {
+    height: 20px;
+    color: black
+}
